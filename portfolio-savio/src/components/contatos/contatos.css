@@ -1,0 +1,44 @@
+a {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.contatos-container {
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.contatos-title {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contatos {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contato {
+  margin-right: 10%;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 512px) {
+  .contatos-title {
+    margin-left: 8%;
+    margin-right: 5%;
+    font-size: 22px;
+  }
+
+  .contato {
+    margin-right: 8%;
+    font-size: 20px;
+  }
+}
