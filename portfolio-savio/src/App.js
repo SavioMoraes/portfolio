@@ -12,8 +12,8 @@ function App() {
       <Header />
       <Apresentation />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/profile" element={ <Perfil /> } />
+        <Route exact path="/portfolio" element={<Home />} />
+        <Route exact path="/portfolio/profile" element={ <Perfil /> } />
         <Route path="*" element={ <NotFound /> } />
       </Routes>
       <Contatos />
