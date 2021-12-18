@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home, Perfil, NotFound } from './pages/';
 import { Header, Footer, Apresentation, Contatos } from './components';
-
-
 import './App.css';
 
 function App() {
@@ -13,7 +11,7 @@ function App() {
       <Apresentation />
       <Routes>
         <Route exact path="/portfolio" element={<Home />} />
-        <Route exact path="/portfolio/profile" element={ <Perfil /> } />
+        <Route exact path="/portfolioYprofile" element={ <Perfil /> } />
         <Route path="*" element={ <NotFound /> } />
       </Routes>
       <Contatos />
