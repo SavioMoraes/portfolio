@@ -9,14 +9,14 @@ function Web() {
   return (
     <div className="web">
       <div className="web-options">
-        <NavLink to="/" activeClassName="selected">
+        <NavLink to="/portfolio" activeClassName="selected">
           <FontAwesomeIcon icon={faHome} />Home</NavLink>
       </div>
       <div className="web-options">
-        <NavLink to="/profile"><FontAwesomeIcon icon={faMale} />Perfil</NavLink>
+        <NavLink to="/portfolio/profile"><FontAwesomeIcon icon={faMale} />Perfil</NavLink>
       </div>
     </div>
-  )
+  );
 }
 
-export default Web
+export default Web;

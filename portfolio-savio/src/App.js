@@ -11,7 +11,7 @@ function App() {
       <Apresentation />
       <Routes>
         <Route exact path="/portfolio" element={<Home />} />
-        <Route exact path="/portfolioYprofile" element={ <Perfil /> } />
+        <Route exact path="/portfolio/profile" element={ <Perfil /> } />
         <Route path="*" element={ <NotFound /> } />
       </Routes>
       <Contatos />

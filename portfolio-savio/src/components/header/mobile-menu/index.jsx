@@ -16,11 +16,11 @@ function Mobile({isOpen, setIsOpen}) {
       
       <div className="mobile-options">
         <div className="mobile-option" onClick = { () => setIsOpen(!isOpen)}>
-          <NavLink to="/" activeClassName="selected">
+          <NavLink to="/portfolio" activeClassName="selected">
             <FontAwesomeIcon icon={faHome} />Home</NavLink>
         </div>
         <div className="mobile-option" onClick = { () => setIsOpen(!isOpen)}>
-          <NavLink to="/profile"><FontAwesomeIcon icon={faMale} />Perfil</NavLink>
+          <NavLink to="/portfolio/profile"><FontAwesomeIcon icon={faMale} />Perfil</NavLink>
         </div>
       </div>
     </div>
