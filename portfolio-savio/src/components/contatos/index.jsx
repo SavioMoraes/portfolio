@@ -16,7 +16,7 @@ function Contatos() {
           </a>
         </div>
         <div className="contato">
-          <a href="https://api.whatsapp.com/send?phone=5547999323225&text=Texto%20aqui" target="_blank" rel = "noreferrer" alt="whatsapp">
+          <a href="https://api.whatsapp.com/send?phone=5547999323225&text=" target="_blank" rel = "noreferrer" alt="whatsapp">
             <FontAwesomeIcon icon={faWhatsapp} size="lg" />
           </a>
         </div>
