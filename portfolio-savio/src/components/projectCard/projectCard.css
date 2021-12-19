@@ -33,11 +33,19 @@ a {
   color: black;
 }
 
+.link-repo {
+  display: flex;
+}
+
+.git-hub-icon {
+  color: #6c757d;
+}
+
 .project-card-git-hub {
   color: #6c757d;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 500;
-  margin: 0 0 8px;
+  margin: 0 8px 8px;
 }
 
 .project-card-storyline {
