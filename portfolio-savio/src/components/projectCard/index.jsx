@@ -9,10 +9,12 @@ class ProjectCard extends React.Component {
     return (
       <section className="project-card">
         <a href={`https://saviomoraes.github.io/${name}/`} target="_blank" rel="noreferrer">
-          <img src={ imagePath } alt={ title } />
+          <img className="project-card-image" src={ imagePath } alt={ title } />
         </a>
         <div className="project-card-body">
-          <h4 className="project-card-title">{ title }</h4>
+          <a href={`https://saviomoraes.github.io/${name}/`} target="_blank" rel="noreferrer">
+            <h4 className="project-card-title">{ title }</h4>
+          </a>
           <h5 className="project-card-git-hub">{ gitHub }</h5>
           <p className="project-card-storyline">{ storyline }</p>
         </div>
