@@ -1,0 +1,44 @@
+.hard-skills-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(250, 112, 112, 0.767);
+  /* width: max-content; */
+  padding: 5px;
+}
+
+.hard-skills-icons {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.hard-skills-icon {
+  font-size: 30px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.hard-skills {
+  padding: 12px;
+}
+
+@media only screen and (max-width: 512px) {
+  .hard-skills-title {
+    font-size: 24px;
+  }
+
+  .hard-skills-icons {
+    padding: 20px;
+  }
+
+  .hard-skills-icon {
+    font-size: 20px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+  }
+}
