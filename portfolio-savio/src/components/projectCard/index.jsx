@@ -1,17 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 import './projectCard.css'
 
 class ProjectCard extends React.Component {
   render() {
     const { project } = this.props;
-    const { title, gitHub, storyline, imagePath } = project;
+    const { title, name, storyline, imagePath } = project;
     return (
       <section className="project-card">
-        <img src={ imagePath } alt={ title } />
+        <a href={`https://saviomoraes.github.io/${name}/`} target="_blank" rel="noreferrer">
+          <img className="project-card-image" src={ imagePath } alt={ title } />
+        </a>
         <div className="project-card-body">
-          <h4 className="project-card-title">{ title }</h4>
-          <h5 className="project-card-git-hub">{ gitHub }</h5>
+          <a href={`https://saviomoraes.github.io/${name}/`} target="_blank" rel="noreferrer">
+            <h4 className="project-card-title">{ title }</h4>
+          </a>
+          <a className="link-repo" href={`https://github.com/SavioMoraes/${name}/`} target="_blank" rel="noreferrer">
+          <FontAwesomeIcon className="git-hub-icon" icon={faCodeBranch} />
+            <h5 className="project-card-git-hub">código github</h5>
+          </a>
           <p className="project-card-storyline">{ storyline }</p>
         </div>
       </section>

@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .project-card {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -25,15 +29,23 @@
   text-align: center;
   font-size: 24px;
   font-weight: 500;
-  margin: 0 0 12px;
+  margin: 10px 0 20px;
   color: black;
+}
+
+.link-repo {
+  display: flex;
+}
+
+.git-hub-icon {
+  color: #6c757d;
 }
 
 .project-card-git-hub {
   color: #6c757d;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 500;
-  margin: 0 0 8px;
+  margin: 0 8px 8px;
 }
 
 .project-card-storyline {
