@@ -1,7 +1,7 @@
 const projects = [
   {
     title: 'Movie Cards Library',
-    name: 'project-shopping-cart',
+    name: 'project-movie-cards-library',
     storyline: 'O projeto Movie Cards Library, feito em React e estilizado com CSS flex-box, traz uma biblioteca de filmes que são renderizados dinamicamente! São utilizados props na troca de informações entre os componentes e propTypes para checagem dos tipos de dados.',
     imagePath: 'images/movie-cards-library.png',
   },
