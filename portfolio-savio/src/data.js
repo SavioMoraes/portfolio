@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Pixels Art",
     name: 'project-pixels-art',
-    storyline: 'Nesse projeto, Pixels Art, criado com JavaScript, HTML e CSS, é gerado a cada refresh da página uma paleta com 4 cores rgb aleatoriamente! Também é possível escolher o tamanho do painel de pintura e apagá-lo quando necessário!',
+    storyline: 'Nesse projeto, Pixels Art, criado com JavaScript, HTML e CSS, é gerado a cada refresh da página uma paleta com 5 cores rgb aleatoriamente! Também é possível escolher o tamanho do painel de pintura e apagá-lo quando necessário!',
     imagePath: 'images/pixels-art.png',
   },
   {

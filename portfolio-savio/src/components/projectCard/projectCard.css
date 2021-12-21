@@ -28,7 +28,7 @@ a {
 
 .project-card-title {
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin: 10px 0 20px;
   color: black;
@@ -44,7 +44,7 @@ a {
 
 .project-card-git-hub {
   color: #6c757d;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   margin: 0 8px 8px;
 }
@@ -65,11 +65,15 @@ a {
   }
 
   .project-card-title {
-    font-size: 16px;
+    font-size: 18px;
   }
   
   .project-card-git-hub {
-    font-size: 8px;
+    font-size: 14px;
+  }
+
+  .git-hub-icon {
+    font-size: .8em;
   }
   
   .project-card-storyline {
