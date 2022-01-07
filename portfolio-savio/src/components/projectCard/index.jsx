@@ -15,7 +15,7 @@ class ProjectCard extends React.Component {
             <img className="project-card-image" src={ imagePath } alt={ title } />
           </a>
           <div className="project-card-body">
-            <a href={`https://saviomoraes.github.io/${name}/`} target="_blank" rel="noreferrer">
+            <a href={ name ? `https://saviomoraes.github.io/${name}/` : url } target="_blank" rel="noreferrer">
               <h4 className="project-card-title">{ title }</h4>
             </a>
             <a className="link-repo" href={ name ? `https://github.com/SavioMoraes/${name}/` : `https://github.com/SavioMoraes/${github}/` } target="_blank" rel="noreferrer">
