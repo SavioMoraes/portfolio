@@ -2,6 +2,7 @@ const projects = [
   {
     title: 'Movie Card Library CRUD',
     url: 'https://project-movie-card-library-crud-flame.vercel.app/',
+    github: 'project-movie-card-library-crud',
     storyline: 'Feito em React, o projeto Movie Card Library CRUD, é uma bibliotaca de filmes onde é possível criar, visualizar, atualizar e deletar os filmes da biblioteca. Utiliza shouldComponentUpdate, componentDidUpdate, props.children, Rotas e Navegação. Estilizado com CSS responsivo.',
     imagePath: 'images/movie-card-library-crud.png',
   },
